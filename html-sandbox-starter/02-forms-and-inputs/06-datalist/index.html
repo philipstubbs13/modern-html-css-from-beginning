@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Datalist</h1>
+
+    <!-- General list select -->
+    <label for="favLanguage">Favorite Programming Languages</label>
+    <input list="languages" id="favLanguage" name="favLanguage" />
+    <datalist id="languages">
+      <option value="HTML"></option>
+      <option value="CSS"></option>
+      <option value="JavaScript"></option>
+      <option value="Python"></option>
+      <option value="Ruby"></option>
+      <option value="Rust"></option>
+      <option value="Go"></option>
+      <option value="Swift"></option>
+      <option value="Kotlin"></option>
+    </datalist>
+
+    <br /><br />
+
+    <!-- Time -->
+    <input type="time" list="popularHours" />
+    <datalist id="popularHours">
+      <option value="08:00"></option>
+      <option value="09:00"></option>
+      <option value="10:00"></option>
+      <option value="11:00"></option>
+      <option value="12:00"></option>
+      <option value="13:00"></option>
+      <option value="14:00"></option>
+      <option value="15:00"></option>
+      <option value="16:00"></option>
+      <option value="17:00"></option>
+      <option value="18:00"></option>
+      <option value="19:00"></option>
+      <option value="20:00"></option>
+      <option value="21:00"></option>
+      <option value="22:00"></option>
+    </datalist>
+
+    <br /><br />
+
+    <!-- Range -->
+    <label for="tick">Tip Amount</label>
+    <input
+      type="range"
+      name="tick"
+      id="tick"
+      min="0"
+      max="100"
+      list="tickmarks"
+    />
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+
+      <option value="30"></option>
+
+      <option value="40"></option>
+
+      <option value="50"></option>
+
+      <option value="60"></option>
+
+      <option value="70"></option>
+
+      <option value="80"></option>
+
+      <option value="90"></option>
+
+      <option value="100"></option>
+    </datalist>
+
+    <br /><br />
+
+    <!-- Colors -->
+    <label for="colors">Pick a color</label>
+    <input type="color" name="colors" id="colors" list="redColors" />
+    <datalist id="redColors">
+      <option value="#ff0000"></option>
+      <option value="#ff3333"></option>
+      <option value="#ff6666"></option>
+      <option value="#ff9999"></option>
+      <option value="#ffcccc"></option>
+      <option value="#ffe5e5"></option>
+      <option value="#ffcccc"></option>
+      <option value="#ffffcc"></option>
+      <option value="#ffff99"></option>
+      <option value="#ffff66"></option>
+      <option value="#ffff33"></option>
+      <option value="#ffff00"></option>
+      <option value="#ccff00"></option>
+      <option value="#99ff00"></option>
+      <option value="#66ff00"></option>
+      <option value="#33ff00"></option>
+    </datalist>
+  </body>
+</html>
