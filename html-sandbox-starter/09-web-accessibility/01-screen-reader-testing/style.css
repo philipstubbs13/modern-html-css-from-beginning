@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.6;
 }
 
@@ -60,7 +60,7 @@ body {
   align-items: center;
 }
 
-.search input[type='text'] {
+.search input[type="text"] {
   padding: 8px;
   border: none;
   border-radius: 5px 0 0 5px;
@@ -81,4 +81,14 @@ body {
 
 .search button:hover {
   background-color: #45a049;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
